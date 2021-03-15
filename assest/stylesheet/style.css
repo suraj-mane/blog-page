@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css custom */
+ 
+header {
+    background-color: midnightblue;
+    height: 60px;
+    text-align: center;
+}
+nav {
+    padding: 10px;
+    font-size: 30px;
+}
+.link1 {
+    margin: 10px;
+    text-decoration: none;
+    color: green;
+}
+.link2 {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.boxone {
+    background-color: #99D8CA;
+    width: 200px;
+    height: 200px;
+    border: solid 10px #0D1430;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 10px #5873E2, 0 0 0 20px #90FFA9;
+    margin-left: 810px;
+    margin-top: 40px ;
+}
+.colorname {
+    margin-left: 700px;
+    padding-top: 70px;
+}
+.colorname1 {
+    background-color: #99D8CA;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.colorname2 {
+    background-color: #0D1430;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.colorname3 {
+    background-color: #90FFA9;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.colorname4 {
+    background-color: #5873E2;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+hr {
+    width: 700px;
+    margin-top: 30px ;
+    border-top: 1px dotted black;
+}
+.boxtwo {
+    width: 660px;
+    border: 2px solid;
+    margin-left: 590px;
+    font-size: 0;
+}
+.child1 {
+    background-color: gray;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    display: inline-block;
+}
+.boxthree {
+    width: 660px;
+    margin: 0 auto;
+    border: 2px solid;
+    font-size: 0;
+}
+.child2 {
+    background-color: grey;
+    width: 193px;
+    height: 180px;
+    margin: 10px;
+    border: 2px solid;
+    display: inline-block;
+}
